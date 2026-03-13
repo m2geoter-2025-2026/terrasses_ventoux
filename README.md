@@ -35,7 +35,9 @@ Les données associées à ce projet sont archivées et accessibles via Zenodo :
 │       └── 06_CARTE_PROBA.py
 │
 ├── eco_paysage/             # Analyse de métriques paysagères
-│   └── ecopaysage.py
+│   ├── 01_Workflow_general.py
+│   ├── 02_Test_buffer.py
+│   └── 03_Test_pentes.py
 │
 └── lien_donnees_zenodo.txt  # Référence aux données sur Zenodo
 ```
@@ -78,4 +80,4 @@ Approche de classification par objet géographique (Geographic Object-Based Imag
 
 Calcul de métriques d'écologie du paysage sur les résultats de cartographie.
 
-**Dépendances Python :** `processing` 
+**Dépendances Python :** `os`, `processing`, `qgis.core`
